@@ -1,0 +1,351 @@
+body {
+    background: linear-gradient(135deg, #f7cfe9 0%, #2fffb6 100%);
+    padding: 20px 0;
+}
+
+.navi a{
+    text-decoration: none;
+    align-items: center;
+    color: rgb(49, 49, 49);
+    padding: 20px;
+}
+.navi a:hover{
+    color: purple;
+
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.hey {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.p{
+    margin-left: 155px;
+    font-size: 20px;
+}
+.head{
+    margin-top: 70px;
+    margin-left: 30px;   
+}
+.big{
+    font-size: 50px;
+    margin-left: 155px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+    color:purple;
+}
+
+img{
+    width: 200px;
+    float: right;
+    margin-right: 200PX;
+    border-radius: 60px;
+}
+#Home{
+    margin-bottom: 70px;
+
+}
+#About{
+    margin:170px;
+    padding-top: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pro{
+    text-align: center;
+}
+
+#Projects div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 20%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    margin: 0 auto 15px;
+    display: block;
+    float: none;
+}
+.card h2 {
+    font-size: 20px;
+}
+.card p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+
+#Contact {
+    margin: 170px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.contact-intro {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-form-wrapper {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-form {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: purple;
+    box-shadow: 0 0 5px rgba(128, 0, 128, 0.3);
+}
+
+.submit-btn {
+    background-color: purple;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.submit-btn:hover {
+    background-color: #800080;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 16px;
+}
+
+.contact-info a[href^="mailto:"] {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a[href^="mailto:"]:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social-link:hover {
+    background-color: purple;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.social-link.linkedin:hover {
+    background-color: #0077b5;
+}
+
+.social-link.github:hover {
+    background-color: #333;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(135deg, #2c3e50 0%, #3d1e6d 100%);
+    color: white;
+    margin-top: 100px;
+    padding: 50px 20px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    gap: 30px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #a78bfa;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #a78bfa;
+    text-decoration: underline;
+}
+
+.footer-section p {
+    font-size: 14px;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-icon {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-icon:hover {
+    background-color: #a78bfa;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.footer-icon.linkedin:hover {
+    background-color: #0077b5;
+}
+
+.footer-icon.github:hover {
+    background-color: #333;
+}
+
+.footer-icon.email:hover {
+    background-color: #d946ef;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: #b0b0b0;
+    font-size: 14px;
+}
